@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: lavender;
+
 }
 
 h1 {
@@ -10,10 +10,12 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
+    color: #3c1361;
 }
 
 h2 {
     font-size: 2.5rem;
+    color: #3c1361;
 }
 
 h2, h3 {
@@ -21,14 +23,12 @@ h2, h3 {
 }
 
 .top-container {
-
+    background-color: lavender;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.top-container img {
-
-}
 
 .skill-row {
     width: 50%;
@@ -42,7 +42,8 @@ h2, h3 {
     float: left;
     margin-right: 30px;
 }
-.skill-row .selenium{
+
+.skill-row .selenium {
     width: 25%;
     float: right;
     margin-left: 30px;
@@ -63,6 +64,12 @@ h2, h3 {
 .social-icons {
     width: 50px;
     height: 50px;
+    border-radius: 100px;
+}
+
+.bottom-container {
+    background-color: #663a82;
+    color: white;
 }
 
 .bottom-container p {
@@ -72,4 +79,19 @@ h2, h3 {
 .profile img {
     height: 200px;
     border-radius: 100px;
+    margin-top: 10%;
+}
+.profile p{
+    width: 500px;
+    margin: auto 35% 5%;
+}
+.btn{
+    padding:20px;
+    border-radius: 20px;
+    background-color: #3c1361;
+    color: white;
+    text-decoration: none;
+    margin: 2% auto;
+    display: block;
+    width: fit-content;
 }
