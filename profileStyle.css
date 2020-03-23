@@ -22,6 +22,13 @@ h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    border: 10px dotted #b491cB;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
 .top-container {
     background-color: lavender;
     position: relative;
@@ -29,9 +36,13 @@ h2, h3 {
     padding-bottom: 100px;
 }
 
+.skills {
+    margin-bottom: 10%;
+}
 
 .skill-row {
     width: 50%;
+    height: 120px;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
@@ -51,14 +62,14 @@ h2, h3 {
 
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 5%;
+    top: 15%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 5%;
+    bottom: 15%;
 }
 
 .social-icons {
@@ -79,14 +90,11 @@ h2, h3 {
 .profile img {
     height: 200px;
     border-radius: 100px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
-.profile p{
-    width: 500px;
-    margin: auto 35% 5%;
-}
-.btn{
-    padding:20px;
+
+.btn {
+    padding: 20px;
     border-radius: 20px;
     background-color: #3c1361;
     color: white;
@@ -94,4 +102,10 @@ h2, h3 {
     margin: 2% auto;
     display: block;
     width: fit-content;
+}
+
+
+.contact-me {
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
